@@ -126,31 +126,34 @@ styles = """
   max-width: 900px;
 }
 
-/* === TOC Buttons === */
+/* === TOC Buttons (Blue Theme) === */
 .button {
   display: block;
   width: 100%;
   max-width: 600px;
   margin: 10px auto;
   padding: 14px 24px;
-  background-color: #8B4D9C;
-  color: #F8F8FF;
-  border: none;
+  background-color: #0A0F2C;
+  color: #4AC4FF;
+  border: 2px solid #4AC4FF;
   border-radius: 50px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
   font-family: 'Century Gothic', sans-serif;
-  transition: transform 0.4s ease, background-position 0s ease, color 0.3s ease;
+  transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease;
 }
 .button:hover {
-  background-image: linear-gradient(to right, #D176C4 0%, #8B4D9C 50%, #D176C4 100%);
-  background-size: 300% 100%;
-  background-position: 100% 0%;
+  background-color: #4AC4FF;
+  color: #0A0F2C;
   transform: scale(1.05);
-  color: #FFA500;
+  text-decoration: none;
 }
+.button:visited {
+  color: #4AC4FF;
+}
+
 
 /* === Responsive (Mobile) === */
 @media (max-width: 500px) {
