@@ -126,32 +126,32 @@ styles = """
   box-shadow: 0 4px 20px rgba(74, 196, 255, 0.15);
 }
 
-/* === TOC Buttons (Shades of Blue) === */
+/* === TOC Buttons (Shades of Blue — FIXED) === */
 .button {
   display: block;
   width: 100%;
   max-width: 600px;
   margin: 10px auto;
   padding: 14px 24px;
-  background-color: #0A0F2C;
-  color: #4AC4FF;
+  background-color: #0A0F2C !important;
+  color: #4AC4FF !important;
   border: 2px solid #4AC4FF;
   border-radius: 50px;
   text-align: center;
-  text-decoration: none !important;
   font-size: 16px;
   font-weight: bold;
   font-family: 'Century Gothic', sans-serif;
   transition: all 0.3s ease;
+  text-decoration: none !important;
 }
 .button:hover {
-  background-color: #4AC4FF;
-  color: #0A0F2C;
+  background-color: #4AC4FF !important;
+  color: #0A0F2C !important;
   transform: scale(1.05);
   text-decoration: none !important;
 }
 .button:visited {
-  color: #4AC4FF;
+  color: #4AC4FF !important;
   text-decoration: none !important;
 }
 
@@ -172,6 +172,7 @@ styles = """
 
 </style>
 """
+
 
 
 
