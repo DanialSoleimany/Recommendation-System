@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-styles  = """
+styles = """
 <style>
 
 .title {
@@ -25,11 +25,11 @@ styles  = """
   padding: 25px 30px;
   border: 2px solid #8B4D9C;
   border-radius: 20px;
-  background: linear-gradient(145deg, #E5E7EB, #D176C4);
-  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.15);
+  background: linear-gradient(145deg, #0A0F2C, #1B123A);
+  box-shadow: 0 8px 20px rgba(74, 196, 255, 0.1);
   text-align: center;
   font-family: 'Century Gothic', sans-serif;
-  color: #0A0F2C;
+  color: #F8F8FF;
 }
 .about-container p {
   font-size: 16px;
@@ -65,6 +65,25 @@ styles  = """
   transform: scale(1.05);
   text-decoration: none !important;
 }
+
+/* === Additional Fancy Buttons for Plum and Cyan === */
+.fancy-button.plum {
+  border-color: #D176C4;
+  color: #D176C4;
+}
+.fancy-button.plum:hover {
+  background-color: #D176C4;
+  color: #0A0F2C !important;
+}
+.fancy-button.cyan {
+  border-color: #4AC4FF;
+  color: #4AC4FF;
+}
+.fancy-button.cyan:hover {
+  background-color: #4AC4FF;
+  color: #0A0F2C !important;
+}
+
 .button-row {
   display: flex;
   justify-content: center;
@@ -140,3 +159,4 @@ styles  = """
 
 </style>
 """
+
