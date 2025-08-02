@@ -126,7 +126,7 @@ styles = """
   box-shadow: 0 4px 20px rgba(74, 196, 255, 0.15);
 }
 
-/* === TOC Buttons (Blue Toned) === */
+/* === TOC Buttons (Shades of Blue) === */
 .button {
   display: block;
   width: 100%;
@@ -138,7 +138,7 @@ styles = """
   border: 2px solid #4AC4FF;
   border-radius: 50px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 16px;
   font-weight: bold;
   font-family: 'Century Gothic', sans-serif;
@@ -152,9 +152,8 @@ styles = """
 }
 .button:visited {
   color: #4AC4FF;
-  text-decoration: none;
+  text-decoration: none !important;
 }
-
 
 /* === Responsive (Mobile) === */
 @media (max-width: 500px) {
@@ -173,5 +172,6 @@ styles = """
 
 </style>
 """
+
 
 
