@@ -92,7 +92,7 @@ styles = """
   margin-top: 20px;
 }
 
-/* === Table Of Contents === */
+/* === Table Of Contents Label === */
 .text-container {
   text-align: center;
   font-size: 12px;
@@ -115,30 +115,40 @@ styles = """
   text-align: center;
 }
 
+/* === TOC Container === */
+.toc-container {
+  border: 2px solid #4AC4FF;
+  background: linear-gradient(145deg, #0A0F2C, #1B123A);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(74, 196, 255, 0.1);
+  margin: 40px auto;
+  max-width: 900px;
+}
+
 /* === TOC Buttons === */
 .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 600px;
-  height: 60px;
+  display: block;
+  width: 100%;
+  max-width: 600px;
   margin: 10px auto;
+  padding: 14px 24px;
   background-color: #8B4D9C;
-  color: #F8F1FF;
+  color: #F8F8FF;
   border: none;
   border-radius: 50px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  font-family: 'Century Gothic';
-  transition: transform 0.6s ease, background-position 0s ease, color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Century Gothic', sans-serif;
+  transition: transform 0.4s ease, background-position 0s ease, color 0.3s ease;
 }
 .button:hover {
   background-image: linear-gradient(to right, #D176C4 0%, #8B4D9C 50%, #D176C4 100%);
   background-size: 300% 100%;
   background-position: 100% 0%;
-  transform: scale(1.1);
+  transform: scale(1.05);
   color: #FFA500;
 }
 
@@ -159,4 +169,5 @@ styles = """
 
 </style>
 """
+
 
