@@ -117,16 +117,16 @@ styles = """
 
 /* === TOC Container === */
 .toc-container {
-  border: 2px solid #4AC4FF;
   background: linear-gradient(145deg, #0A0F2C, #1B123A);
-  padding: 20px;
+  border: 2px solid #4AC4FF;
   border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(74, 196, 255, 0.1);
-  margin: 40px auto;
+  padding: 20px;
   max-width: 900px;
+  margin: 40px auto;
+  box-shadow: 0 4px 20px rgba(74, 196, 255, 0.15);
 }
 
-/* === TOC Buttons (Blue Theme) === */
+/* === TOC Buttons (Blue Toned) === */
 .button {
   display: block;
   width: 100%;
@@ -142,16 +142,17 @@ styles = """
   font-size: 16px;
   font-weight: bold;
   font-family: 'Century Gothic', sans-serif;
-  transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease;
+  transition: all 0.3s ease;
 }
 .button:hover {
   background-color: #4AC4FF;
   color: #0A0F2C;
   transform: scale(1.05);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .button:visited {
   color: #4AC4FF;
+  text-decoration: none;
 }
 
 
