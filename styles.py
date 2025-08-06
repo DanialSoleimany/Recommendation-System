@@ -86,12 +86,19 @@ styles = """
   color: #0A0F2C !important;
 }
 
+/* === Button Row (centered default) === */
 .button-row {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
   margin-top: 20px;
+}
+
+/* === NEW: Button Row aligned to right === */
+.button-row.right {
+  justify-content: flex-end;
+  padding-right: 20px;
 }
 
 /* === Table Of Contents Label === */
@@ -134,8 +141,7 @@ styles = """
 /* === TOC Buttons (Blue Style w/ hover fix) === */
 .button {
   display: block;
-  width: 100%;
-  max-width: 100%;
+  width: 70%;
   margin: 10px auto;
   padding: 14px 24px;
   background-color: #0A0F2C;
@@ -166,7 +172,8 @@ styles = """
     width: 90%;
     font-size: 14px;
   }
-  .button-row {
+  .button-row,
+  .button-row.right {
     flex-direction: column;
     align-items: center;
   }
@@ -177,6 +184,7 @@ styles = """
 
 </style>
 """
+
 
 
 
