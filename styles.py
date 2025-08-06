@@ -20,8 +20,9 @@ styles = """
 
 /* === کانتینر معرفی === */
 .about-container {
-  max-width: 600px;
-  margin: 40px auto;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
   padding: 25px 30px;
   border: 2px solid #8B4D9C;
   border-radius: 20px;
@@ -30,6 +31,7 @@ styles = """
   text-align: center;
   font-family: 'Century Gothic', sans-serif;
   color: #F8F8FF;
+  box-sizing: border-box;
 }
 .about-container p {
   font-size: 16px;
@@ -111,8 +113,9 @@ styles = """
   font-weight: bold;
   font-size: 22px; 
   font-family: 'Century Gothic';
-  width: auto;
+  width: 100%;
   text-align: center;
+  box-sizing: border-box;
 }
 
 /* === TOC Container === */
@@ -121,16 +124,18 @@ styles = """
   border: 2px solid #4AC4FF;
   border-radius: 20px;
   padding: 20px;
-  max-width: 900px;
-  margin: 40px auto;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
   box-shadow: 0 4px 20px rgba(74, 196, 255, 0.15);
+  box-sizing: border-box;
 }
 
 /* === TOC Buttons (Blue Style w/ hover fix) === */
 .button {
   display: block;
   width: 100%;
-  max-width: 600px;
+  max-width: 100%;
   margin: 10px auto;
   padding: 14px 24px;
   background-color: #0A0F2C;
@@ -172,6 +177,7 @@ styles = """
 
 </style>
 """
+
 
 
 
